@@ -87,13 +87,16 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+🌟 Frontend & UI: Gradio🤖 AI & NLP: GPT-4-turbo, Function Calling API
+
+📄 Document Processing: pdfplumber, python-docx, easyocr
+
+🧠 Vector Search & Duplicate Detection: sentence-transformers, ChromaDB
+
+🔧 Backend & Parsing: email, BeautifulSoup
 
 ## 👥 Team
-- **Prasune John** - [GitHub](#) | [LinkedIn](#)
+- **Prasune John** - [GitHub](#prasune) | [LinkedIn](#)
 - **Anusree A R** - [GitHub](#) | [LinkedIn](#)
 - **Sangeetha Naik** - [GitHub](#) | [LinkedIn](#)
 - **Partha Ojah** - [GitHub](#) | [LinkedIn](#)
