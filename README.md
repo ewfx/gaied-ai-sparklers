@@ -42,7 +42,26 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
 - Displays results in an interactive UI with progress tracking and metadata visualization.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+📅 Email Ingestion & Preprocessing
+- Parse .eml files with Python’s email module.
+- Extract text from attachments (pdfplumber for PDFs, python-docx for DOCX, easyocr for images).
+- Handle nested emails recursively.
+
+🤖 AI-Powered Email Classification
+- Uses GPT-4-turbo for request type classification based on the email body.
+- Uses function calling API to extract structured metadata.
+
+🔍 Context-Based Metadata Extraction
+- Extracts key fields dynamically based on request type & sub-request type.
+- Prioritizes email body over attachments for classification.
+
+🧠 Duplicate Email Detection
+- Converts email content to vector embeddings using sentence-transformers.
+- Stores embeddings in ChromaDB and checks for similar emails.
+
+📊 Interactive Gradio UI
+- Accepts email directory path and processes emails with real-time progress tracking.
+- Shows classification results in a structured table with expandable metadata fields.
 
 ## 🚧 Challenges We Faced
 Describe the major technical or non-technical challenges your team encountered.
