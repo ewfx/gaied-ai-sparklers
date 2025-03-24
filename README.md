@@ -88,6 +88,11 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
    ```sh
    npm start  # or python app.py
    ```
+🔹 Prerequisites
+!pip install --no-cache-dir openai langchain langchain_openai pdfplumber pdf2image easyocr python-docx fpdf pymupdf chromadb sentence-transformers gradio pandas extract_msg
+🔹 Run the Project
+python app.py
+demo.launch(share=True)
 
 ## 🏗️ Tech Stack
 🌟 Frontend & UI: Gradio🤖 AI & NLP: GPT-4-turbo, Function Calling API
