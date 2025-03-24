@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 AI Powered Email & Document Classification for Triage
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -14,7 +14,11 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+In commercial banking, loan servicing teams receive thousands of email requests daily. These emails often contain attachments and require manual triage by a gatekeeping team that classifies them, extracts key data, and assigns them to the right teams. This process is:
+❌ Time-consuming
+❌ Error-prone
+❌ Operationally expensive
+To automate this, we built an AI-powered solution that classifies emails, extracts metadata from both email body and attachments, and detects duplicate emails using similarity search with embeddings.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,10 +28,18 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+- Manual email processing in banking is inefficient, with high operational costs and risks of errors.
+- Generative AI models (LLMs) can understand unstructured text, making it ideal for automated classification.
+- OCR & Embeddings enable us to process PDFs, images, and detect duplicate emails effectively.
+- We were inspired by AI-driven automation in financial services and wanted to build a scalable, explainable, and efficient solution.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+- Ingests emails (.eml files) with nested attachments (PDFs, DOCX, images, and other .eml files).
+- Classifies emails into predefined request types and sub-request types.
+- Extracts key metadata fields (e.g., deal name, amount, effective date) from email body & attachments.
+- Handles nested emails inside attachments recursively.
+- Detects duplicate emails using vector embeddings and similarity search (ChromaDB).
+- Displays results in an interactive UI with progress tracking and metadata visualization.
 
 ## 🛠️ How We Built It
 Briefly outline the technologies, frameworks, and tools used in development.
