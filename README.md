@@ -15,8 +15,11 @@
 
 ## 🎯 Introduction
 In commercial banking, loan servicing teams receive thousands of email requests daily. These emails often contain attachments and require manual triage by a gatekeeping team that classifies them, extracts key data, and assigns them to the right teams. This process is:
+
 ❌ Time-consuming
+
 ❌ Error-prone
+
 ❌ Operationally expensive
 To automate this, we built an AI-powered solution that classifies emails, extracts metadata from both email body and attachments, and detects duplicate emails using similarity search with embeddings.
 
