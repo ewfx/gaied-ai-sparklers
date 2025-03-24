@@ -64,7 +64,13 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
 - Shows classification results in a structured table with expandable metadata fields.
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+🔴 Handling Nested Emails: Gmail .eml files were tricky, requiring a fix for handling message/rfc822 properly.
+
+🔴 Extracting Key Metadata Dynamically: Metadata fields change based on request type, so we split it into two function calls.
+
+🔴 OCR Accuracy on Images: pytesseract had issues, so we switched to easyocr for better results.
+
+🔴 Duplicate Detection False Positives: Fine-tuned similarity threshold to 0.90 for optimal duplicate detection.
 
 ## 🏃 How to Run
 1. Clone the repository  
