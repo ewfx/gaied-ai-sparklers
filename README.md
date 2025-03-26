@@ -101,7 +101,7 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
 🔧 Backend & Parsing: email, BeautifulSoup
 
 ## 👥 Team
-- **Prasune John** - [GitHub](#prasune) | [LinkedIn](#)
+- **Prasune John** - [GitHub](https://github.com/prasune) | [LinkedIn](#)
 - **Anusree A R** - [GitHub](#) | [LinkedIn](#)
 - **Sangeetha Naik** - [GitHub](#) | [LinkedIn](#)
 - **Partha Ojah** - [GitHub](#) | [LinkedIn](#)
