@@ -24,8 +24,7 @@ In commercial banking, loan servicing teams receive thousands of email requests 
 To automate this, we built an AI-powered solution that classifies emails, extracts metadata from both email body and attachments, and detects duplicate emails using similarity search with embeddings.
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
+📹 Video demo is uploaded under https://github.com/ewfx/gaied-ai-sparklers/tree/main/artifacts/demo
 🖼️ Screenshots:
 ![image](https://github.com/user-attachments/assets/9c4569c6-1753-4e24-9af5-0a503333d8ac)
 ![image](https://github.com/user-attachments/assets/df290833-6882-419b-9d56-1d0a28e8a768)
