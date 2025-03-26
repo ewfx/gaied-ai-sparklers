@@ -83,17 +83,15 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
    git clone https://github.com/ewfx/gaied-ai-sparklers.git
    ```
 2. Upload the python notebook from the git repo to google colb  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
-3. upload test data to /content/drive/MyDrive/EmailClassification/emails/ directory in google drive 
-   ```sh
-   npm start  # or python app.py
-   ```
-4. place open ai key under /content/drive/MyDrive/EmailClassification/
+3. Upload test data to /content/drive/MyDrive/EmailClassification/emails/ directory in google drive 
+4. Place open ai key under /content/drive/MyDrive/EmailClassification/
 5. Runtime - run all
-6. click on gradio link url
-7. enter details and click classify email
+  ```sh
+  python app.py
+   demo.launch(share=True)
+ ```
+7. Click on gradio link url
+8. Enter the details and click classify email
 
 🔹 Prerequisites
  ```sh
