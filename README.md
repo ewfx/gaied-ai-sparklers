@@ -89,7 +89,7 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
 7. Once the run is finished, there will be gradio url similar to https://e74f39bb99810c3b65.gradio.live
 8. Click on the same and navigate to the UI screen
 9. Enter the email directory path as /content/drive/MyDrive/EmailClassification/emails/ (The path from google colab to MyDrive in gDrive is /content/drive/MyDrive)
-10. Click on Alassify Emails button and wait for the results
+10. Click on Classify Emails button and wait for the results
     
 ## 🏗️ Tech Stack
 🌟 Frontend & UI: Gradio🤖 AI & NLP: GPT-4-turbo, Function Calling API
