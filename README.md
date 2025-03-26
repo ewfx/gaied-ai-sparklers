@@ -40,6 +40,7 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
 ## ⚙️ What It Does
 - Ingests emails (.eml files) with nested attachments (PDFs, DOCX, images, and other .eml files).
 - Classifies emails into predefined request types and sub-request types.
+- Provision to include additional classification rules and user defined request types and sub-request types.
 - Extracts key metadata fields (e.g., deal name, amount, effective date) from email body & attachments.
 - Handles nested emails inside attachments recursively.
 - Detects duplicate emails using vector embeddings and similarity search (ChromaDB).
@@ -83,10 +84,10 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
    ```
 2. Upload the python notebook from ./gaied-ai-sparklers/code/src to Google Colab by clicking File -> Upload Notebook
 3. Go to google drive https://drive.google.com/drive/my-drive and create folder named EmailClassification
-4. Place open ai key under EmailClassification directory for accessing GPT models
+4. Save the open ai key in the file OpenAI_API_Key.txt under EmailClassification directory inside /content/drive/  for accessing GPT model
 5. Create a sub folder emails under EmailClassification directory and upload test data from from ./gaied-ai-sparklers/code/text/dataset
 6. Click Runtime -> Run all for running the code
-7. Once the run is finished, there will be gradio url similar to https://e74f39bb99810c3b65.gradio.live
+7. Once the run is finished, there will be gradio url generated similar to https://e74f39bb99810c3b65.gradio.live
 8. Click on the same and navigate to the UI screen
 9. Enter the email directory path as /content/drive/MyDrive/EmailClassification/emails/ (The path from google colab to MyDrive in gDrive is /content/drive/MyDrive)
 10. Click on Classify Emails button and wait for the results
