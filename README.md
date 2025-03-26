@@ -81,16 +81,15 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
    ```sh
    git clone https://github.com/ewfx/gaied-ai-sparklers.git
    ```
-2. Upload the python notebook from the git repo to google colab  
-3. Upload test data to /content/drive/MyDrive/EmailClassification/emails/ directory in google drive 
-4. Place open ai key under /content/drive/MyDrive/EmailClassification/
-5. Runtime - run all
-  ```sh
-  python app.py
-   demo.launch(share=True)
- ```
-7. Click on gradio link url
-8. Enter the details and click on classify email
+2. Upload the python notebook from ./gaied-ai-sparklers/code/src to Google Colab by clicking File -> Upload Notebook
+3. Go to google drive https://drive.google.com/drive/my-drive and create folder named EmailClassification
+4. Place open ai key under EmailClassification directory for accessing GPT models
+5. Create a sub folder emails under EmailClassification directory and upload test data from from ./gaied-ai-sparklers/code/text/dataset
+6. Click Runtime -> Run all for running the code
+7. Once the run is finished, there will be gradio url similar to https://e74f39bb99810c3b65.gradio.live
+8. Click on the same and navigate to the UI screen
+9. Enter the email directory path as /content/drive/MyDrive/EmailClassification/emails/ (The path from google colab to MyDrive in gDrive is /content/drive/MyDrive)
+10. Click on Alassify Emails button and wait for the results
 
 🔹 Prerequisites
  ```sh
