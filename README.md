@@ -27,9 +27,10 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
 🔗 [Live Demo](#) (if applicable)  
 📹 [Video Demo](#) (if applicable)  
 🖼️ Screenshots:
-![image](https://github.com/user-attachments/assets/182a4307-111a-4605-8c64-8ed99dbd7aa4)
-![image](https://github.com/user-attachments/assets/31b72af6-b203-4979-8e0b-3e91bddfa987)
-![image](https://github.com/user-attachments/assets/574a3a0e-31ee-4058-bcaf-842ef07d0741)
+![image](https://github.com/user-attachments/assets/9c4569c6-1753-4e24-9af5-0a503333d8ac)
+![image](https://github.com/user-attachments/assets/df290833-6882-419b-9d56-1d0a28e8a768)
+![image](https://github.com/user-attachments/assets/594299b9-301a-45eb-b0fd-c0e919192733)
+
 
 ## 💡 Inspiration
 - Manual email processing in banking is inefficient, with high operational costs and risks of errors.
