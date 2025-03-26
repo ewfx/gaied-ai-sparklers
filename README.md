@@ -1,4 +1,4 @@
-# 🚀 AI Powered Email & Document Classification for Triage
+# 🚀 Gen AI Powered orchestrator for Email & Document Classification for Triage Routing
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -80,13 +80,13 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/ewfx/gaied-ai-sparklers.git
    ```
-2. Install dependencies  
+2. Upload the python notebook from... to google colb  
    ```sh
    npm install  # or pip install -r requirements.txt (for Python)
    ```
-3. Run the project  
+3. upload test data to ... dir in google drive 4. place open ai key under... 5. Runtime - run all 6. click on gradio link url 7. enter details and click classify email
    ```sh
    npm start  # or python app.py
    ```
