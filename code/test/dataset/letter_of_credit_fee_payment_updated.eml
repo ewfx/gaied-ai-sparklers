@@ -1,0 +1,52 @@
+From: billing@enterpriseabc.com
+To: billing@wellsfargo.com
+Subject: Payment Request: Letter of Credit Fee Payment
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4811286442500965326=="
+
+--===============4811286442500965326==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Billing Team,
+
+Please process the payment for the following fee:
+
+Account Number: 987654321
+Fee Type: Letter of Credit Fee
+Amount: $12,500.00
+Due Date: April 15, 2025
+
+Attached are the transaction details for reference.
+
+Best regards,
+Finance Department
+
+--===============4811286442500965326==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="letter_of_credit_fee_details.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjMKMyAwIG9iago8PC9UeXBlIC9QYWdlCi9QYXJlbnQgMSAwIFIKL1Jlc291cmNlcyAy
+IDAgUgovQ29udGVudHMgNCAwIFI+PgplbmRvYmoKNCAwIG9iago8PC9GaWx0ZXIgL0ZsYXRlRGVj
+b2RlIC9MZW5ndGggMTk0Pj4Kc3RyZWFtCnicZY8xjsIwEEV7TvELil0JDWM7jpN07AaKFaLyBUIy
+SEGQIONotbcnbKBKO/89PY3Gz4LJOvwuvjzWOwWliRn+hK1/nnTKlDi43JJz8A0+fKi6e1XHtu9Q
+Sqzay/0T/vzijSKVw5mceMI3dd0PXcRhuB4lFMgzl9rEaDWXFJMz/9JOBP7vJgX2EqME9Cd8B2na
+iHGamWmmyWRT7vqsFVgqvbLM4y9z2ibEU6ccBGUVx87mFtoLlF1Bs7Zv5wHPskiRCmVuZHN0cmVh
+bQplbmRvYmoKMSAwIG9iago8PC9UeXBlIC9QYWdlcwovS2lkcyBbMyAwIFIgXQovQ291bnQgMQov
+TWVkaWFCb3ggWzAgMCA1OTUuMjggODQxLjg5XQo+PgplbmRvYmoKNSAwIG9iago8PC9UeXBlIC9G
+b250Ci9CYXNlRm9udCAvSGVsdmV0aWNhCi9TdWJ0eXBlIC9UeXBlMQovRW5jb2RpbmcgL1dpbkFu
+c2lFbmNvZGluZwo+PgplbmRvYmoKMiAwIG9iago8PAovUHJvY1NldCBbL1BERiAvVGV4dCAvSW1h
+Z2VCIC9JbWFnZUMgL0ltYWdlSV0KL0ZvbnQgPDwKL0YxIDUgMCBSCj4+Ci9YT2JqZWN0IDw8Cj4+
+Cj4+CmVuZG9iago2IDAgb2JqCjw8Ci9Qcm9kdWNlciAoUHlGUERGIDEuNy4yIGh0dHA6Ly9weWZw
+ZGYuZ29vZ2xlY29kZS5jb20vKQovQ3JlYXRpb25EYXRlIChEOjIwMjUwMzI1MTQzMjA5KQo+Pgpl
+bmRvYmoKNyAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMSAwIFIKL09wZW5BY3Rpb24g
+WzMgMCBSIC9GaXRIIG51bGxdCi9QYWdlTGF5b3V0IC9PbmVDb2x1bW4KPj4KZW5kb2JqCnhyZWYK
+MCA4CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDM1MSAwMDAwMCBuIAowMDAwMDAwNTM0IDAw
+MDAwIG4gCjAwMDAwMDAwMDkgMDAwMDAgbiAKMDAwMDAwMDA4NyAwMDAwMCBuIAowMDAwMDAwNDM4
+IDAwMDAwIG4gCjAwMDAwMDA2MzggMDAwMDAgbiAKMDAwMDAwMDc0NyAwMDAwMCBuIAp0cmFpbGVy
+Cjw8Ci9TaXplIDgKL1Jvb3QgNyAwIFIKL0luZm8gNiAwIFIKPj4Kc3RhcnR4cmVmCjg1MAolJUVP
+Rgo=
+
+--===============4811286442500965326==--
