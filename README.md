@@ -86,7 +86,7 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
 3. Go to google drive https://drive.google.com/drive/my-drive and create folder named EmailClassification
 4. Save the open ai key in the file OpenAI_API_Key.txt under EmailClassification directory inside /content/drive/  for accessing GPT model
 5. Create a sub folder emails under EmailClassification directory and upload test data from from ./gaied-ai-sparklers/code/text/dataset
-6. Click Runtime -> Run all for running the code
+6. Click Runtime -> Run all for running the code. A prompt for allowing access to google drive using your gmail id will appear. Provide necessary permissions for the execution to continue.
 7. Once the run is finished, there will be gradio url generated similar to https://e74f39bb99810c3b65.gradio.live
 8. Click on the same and navigate to the UI screen
 9. Enter the email directory path as /content/drive/MyDrive/EmailClassification/emails/ (The path from google colab to MyDrive in gDrive is /content/drive/MyDrive)
