@@ -40,6 +40,7 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
 ## ⚙️ What It Does
 - Ingests emails (.eml files) with nested attachments (PDFs, DOCX, images, and other .eml files).
 - Classifies emails into predefined request types and sub-request types.
+- Provision to include additional classification rules and user defined request types and sub-request types.
 - Extracts key metadata fields (e.g., deal name, amount, effective date) from email body & attachments.
 - Handles nested emails inside attachments recursively.
 - Detects duplicate emails using vector embeddings and similarity search (ChromaDB).
@@ -64,7 +65,7 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
 - Stores embeddings in ChromaDB and checks for similar emails.
 
 📊 Interactive Gradio UI
-- Accepts email directory path and processes emails with real-time progress tracking.
+- Accepts email directory path, configurable classification rules, additional request & sub request types combination as input.
 - Shows classification results in a structured table with expandable metadata fields.
 
 ## 🚧 Challenges We Faced
@@ -81,27 +82,16 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
    ```sh
    git clone https://github.com/ewfx/gaied-ai-sparklers.git
    ```
-2. Upload the python notebook from the git repo to google colab  
-3. Upload test data to /content/drive/MyDrive/EmailClassification/emails/ directory in google drive 
-4. Place open ai key under /content/drive/MyDrive/EmailClassification/
-5. Runtime - run all
-  ```sh
-  python app.py
-   demo.launch(share=True)
- ```
-7. Click on gradio link url
-8. Enter the details and click on classify email
-
-🔹 Prerequisites
- ```sh
-!pip install --no-cache-dir openai langchain langchain_openai pdfplumber pdf2image easyocr python-docx fpdf pymupdf chromadb sentence-transformers gradio pandas extract_msg
-```
-
-🔹 Run the Project
- ```sh
-  python app.py
-   demo.launch(share=True)
- ```
+2. Upload the python notebook from ./gaied-ai-sparklers/code/src to Google Colab by clicking File -> Upload Notebook
+3. Go to google drive https://drive.google.com/drive/my-drive and create folder named EmailClassification
+4. Save the open ai key in the file OpenAI_API_Key.txt under EmailClassification directory inside /content/drive/  for accessing GPT model
+5. Create a sub folder emails under EmailClassification directory and upload test data from from ./gaied-ai-sparklers/code/text/dataset
+6. Click Runtime -> Run all for running the code. A prompt for allowing access to google drive using your gmail id will appear. Provide necessary permissions for the execution to continue.
+7. Once the run is finished, there will be gradio url generated similar to https://e74f39bb99810c3b65.gradio.live
+8. Click on the same and navigate to the UI screen
+9. Enter the email directory path as /content/drive/MyDrive/EmailClassification/emails/ (The path from google colab to MyDrive in gDrive is /content/drive/MyDrive)
+10. Click on Classify Emails button and wait for the results
+    
 ## 🏗️ Tech Stack
 🌟 Frontend & UI: Gradio🤖 AI & NLP: GPT-4-turbo, Function Calling API
 
@@ -112,7 +102,7 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
 🔧 Backend & Parsing: email, BeautifulSoup
 
 ## 👥 Team
-- **Prasune John** - [GitHub](#prasune) | [LinkedIn](#)
+- **Prasune John** - [GitHub](https://github.com/prasune) | [LinkedIn](#)
 - **Anusree A R** - [GitHub](#) | [LinkedIn](#)
 - **Sangeetha Naik** - [GitHub](#) | [LinkedIn](#)
 - **Partha Ojah** - [GitHub](#) | [LinkedIn](#)
