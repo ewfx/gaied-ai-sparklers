@@ -1,0 +1,49 @@
+From: accounts@businessxyz.com
+To: billing@wellsfargo.com
+Subject: Loan Information Request: Balance Inquiry
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5341386828188784100=="
+
+--===============5341386828188784100==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Billing Team,
+
+I would like to request the following loan information.
+
+Account Number: 4455667788
+Requested Information: Current outstanding loan balance
+
+Attached is a document with further details.
+
+Best regards,
+Customer Support
+
+--===============5341386828188784100==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="balance_inquiry_details.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjMKMyAwIG9iago8PC9UeXBlIC9QYWdlCi9QYXJlbnQgMSAwIFIKL1Jlc291cmNlcyAy
+IDAgUgovQ29udGVudHMgNCAwIFI+PgplbmRvYmoKNCAwIG9iago8PC9GaWx0ZXIgL0ZsYXRlRGVj
+b2RlIC9MZW5ndGggMTY4Pj4Kc3RyZWFtCnicZY5LCsIwAET3PcUsdROT9BPbnV9QxIXkAmmbSqVN
+ME3w+lqtILgaGHhvhuMYUZIKPKK1xGLPwDihFLLBTo4V55wIAZGnY8gas5NVBgfTWNcr31qDi74H
+PXhstVdtN8whbxMcM8JyiDgn9MOuqsoG43EOfaldgSRJ0ywTYrn8pxglIn5T04Cuf2cLbIJz+iWz
+wQ9embo1V3TjuVJ1ylT6q3wCEblBLwplbmRzdHJlYW0KZW5kb2JqCjEgMCBvYmoKPDwvVHlwZSAv
+UGFnZXMKL0tpZHMgWzMgMCBSIF0KL0NvdW50IDEKL01lZGlhQm94IFswIDAgNTk1LjI4IDg0MS44
+OV0KPj4KZW5kb2JqCjUgMCBvYmoKPDwvVHlwZSAvRm9udAovQmFzZUZvbnQgL0hlbHZldGljYQov
+U3VidHlwZSAvVHlwZTEKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKPj4KZW5kb2JqCjIgMCBv
+YmoKPDwKL1Byb2NTZXQgWy9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUldCi9Gb250
+IDw8Ci9GMSA1IDAgUgo+PgovWE9iamVjdCA8PAo+Pgo+PgplbmRvYmoKNiAwIG9iago8PAovUHJv
+ZHVjZXIgKFB5RlBERiAxLjcuMiBodHRwOi8vcHlmcGRmLmdvb2dsZWNvZGUuY29tLykKL0NyZWF0
+aW9uRGF0ZSAoRDoyMDI1MDMyNTE0NDE0MSkKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL1R5cGUgL0Nh
+dGFsb2cKL1BhZ2VzIDEgMCBSCi9PcGVuQWN0aW9uIFszIDAgUiAvRml0SCBudWxsXQovUGFnZUxh
+eW91dCAvT25lQ29sdW1uCj4+CmVuZG9iagp4cmVmCjAgOAowMDAwMDAwMDAwIDY1NTM1IGYgCjAw
+MDAwMDAzMjUgMDAwMDAgbiAKMDAwMDAwMDUwOCAwMDAwMCBuIAowMDAwMDAwMDA5IDAwMDAwIG4g
+CjAwMDAwMDAwODcgMDAwMDAgbiAKMDAwMDAwMDQxMiAwMDAwMCBuIAowMDAwMDAwNjEyIDAwMDAw
+IG4gCjAwMDAwMDA3MjEgMDAwMDAgbiAKdHJhaWxlcgo8PAovU2l6ZSA4Ci9Sb290IDcgMCBSCi9J
+bmZvIDYgMCBSCj4+CnN0YXJ0eHJlZgo4MjQKJSVFT0YK
+
+--===============5341386828188784100==--
