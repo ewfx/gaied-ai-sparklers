@@ -65,7 +65,7 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
 - Stores embeddings in ChromaDB and checks for similar emails.
 
 📊 Interactive Gradio UI
-- Accepts email directory path and processes emails with real-time progress tracking.
+- Accepts email directory path, configurable classification rules, additional request & sub request types combination as input.
 - Shows classification results in a structured table with expandable metadata fields.
 
 ## 🚧 Challenges We Faced
