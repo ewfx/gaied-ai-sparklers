@@ -90,17 +90,7 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
 8. Click on the same and navigate to the UI screen
 9. Enter the email directory path as /content/drive/MyDrive/EmailClassification/emails/ (The path from google colab to MyDrive in gDrive is /content/drive/MyDrive)
 10. Click on Alassify Emails button and wait for the results
-
-🔹 Prerequisites
- ```sh
-!pip install --no-cache-dir openai langchain langchain_openai pdfplumber pdf2image easyocr python-docx fpdf pymupdf chromadb sentence-transformers gradio pandas extract_msg
-```
-
-🔹 Run the Project
- ```sh
-  python app.py
-   demo.launch(share=True)
- ```
+    
 ## 🏗️ Tech Stack
 🌟 Frontend & UI: Gradio🤖 AI & NLP: GPT-4-turbo, Function Calling API
 
