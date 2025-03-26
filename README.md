@@ -82,20 +82,29 @@ To automate this, we built an AI-powered solution that classifies emails, extrac
    ```sh
    git clone https://github.com/ewfx/gaied-ai-sparklers.git
    ```
-2. Upload the python notebook from... to google colb  
+2. Upload the python notebook from the git repo to google colb  
    ```sh
    npm install  # or pip install -r requirements.txt (for Python)
    ```
-3. upload test data to ... dir in google drive 4. place open ai key under... 5. Runtime - run all 6. click on gradio link url 7. enter details and click classify email
+3. upload test data to /content/drive/MyDrive/EmailClassification/emails/ directory in google drive 
    ```sh
    npm start  # or python app.py
    ```
-🔹 Prerequisites
-!pip install --no-cache-dir openai langchain langchain_openai pdfplumber pdf2image easyocr python-docx fpdf pymupdf chromadb sentence-transformers gradio pandas extract_msg
-🔹 Run the Project
-python app.py
-demo.launch(share=True)
+4. place open ai key under /content/drive/MyDrive/EmailClassification/
+5. Runtime - run all
+6. click on gradio link url
+7. enter details and click classify email
 
+🔹 Prerequisites
+ ```sh
+!pip install --no-cache-dir openai langchain langchain_openai pdfplumber pdf2image easyocr python-docx fpdf pymupdf chromadb sentence-transformers gradio pandas extract_msg
+```
+
+🔹 Run the Project
+ ```sh
+  python app.py
+   demo.launch(share=True)
+ ```
 ## 🏗️ Tech Stack
 🌟 Frontend & UI: Gradio🤖 AI & NLP: GPT-4-turbo, Function Calling API
 
